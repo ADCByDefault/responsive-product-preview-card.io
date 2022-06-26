@@ -111,7 +111,7 @@ main {
         padding: 0;
     }
     .card {
-        width: 30rem;
+        width: 32rem;
         flex-direction: row;
     }
     .card-img {

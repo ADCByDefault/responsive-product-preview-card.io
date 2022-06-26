@@ -27,7 +27,8 @@ body {
 main {
     display: grid;
     place-content: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 2rem 0;
 }
 
 .card {
@@ -106,6 +107,9 @@ main {
 }
 
 @media (min-width: 575px) {
+    main{
+        padding: 0;
+    }
     .card {
         width: 30rem;
         flex-direction: row;
